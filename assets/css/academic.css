@@ -62,7 +62,7 @@ h1, h2, h3, p, figure { margin: 0; }
 .discipline-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 23px; }
 .discipline-tags span { color: var(--muted); font: 10px/1.6 var(--mono); letter-spacing: .08em; text-transform: uppercase; }
 .discipline-tags span + span::before { content: "/"; color: #a5aea5; margin-right: 23px; }
-.scroll-cue { display: inline-flex; align-items: center; gap: 13px; color: #6d7971; font-size: 11px; white-space: nowrap; }
+.scroll-cue { display: inline-flex; align-items: center; gap: 13px; color: var(--muted); font-size: 11px; white-space: nowrap; }
 .scroll-cue svg { width: 13px; height: 13px; }
 .section { padding: 80px 0; border-bottom: 1px solid var(--line); }
 .section-heading { margin-bottom: 34px; }
@@ -93,8 +93,8 @@ h1, h2, h3, p, figure { margin: 0; }
 .education-body h3 { color: var(--teal); font: 400 22px/1.35 var(--serif); letter-spacing: -.02em; }
 .education-body > p:not(.education-degree) { margin-top: 9px; color: var(--muted); font-size: 13px; line-height: 1.8; }
 .education-advisors { font-size: 12px !important; }
-.education-advisors a { border-bottom: 1px solid #c2cabe; }
-.education-advisors a:hover { color: var(--teal); border-color: var(--teal); }
+.education-body a { border-bottom: 1px solid #c2cabe; }
+.education-body a:hover { color: var(--teal); border-color: var(--teal); }
 .project-feature { display: grid; grid-template-columns: 1.2fr 1fr; align-items: stretch; overflow: hidden; border: 1px solid #dedfd6; border-radius: 4px; background: #efeee7; }
 .project-image { display: flex; justify-content: center; align-items: center; overflow: hidden; min-height: 300px; background: #e7e9e4; }
 .project-image img { width: 100%; height: 100%; max-height: 390px; object-fit: contain; transition: transform .5s; }
@@ -146,7 +146,7 @@ h1, h2, h3, p, figure { margin: 0; }
 .education-entry, .publication-entry { padding: 0 0 19px; margin-bottom: 25px; border-bottom: 1px solid var(--line); }
 .education-entry h3, .publication-entry h3 { margin-top: 0; }
 .education-entry p, .publication-entry p { margin-bottom: 10px; }
-.education-entry strong { font-weight: 500; color: #6b796c; font-size: 13px; }
+.education-entry strong { font-weight: 500; color: var(--muted); font-size: 13px; }
 .portfolio-project h2 { margin-top: 15px; }
 .portfolio-full-image { width: 100%; margin: 26px 0 5px; padding: 22px; border: 1px solid var(--line); border-radius: 3px; background: #e9ebe5; }
 @media (min-width: 1600px) {
