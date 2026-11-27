@@ -8,6 +8,10 @@
   --accent-hover: #25455f;
   --tint: #f3f6f8;
   --line: #dbe2e8;
+  --icon-email: #b65039;
+  --icon-cv: #267567;
+  --icon-code: #6b55a2;
+  --icon-link: #0a66c2;
   --body: Georgia, "Times New Roman", Times, serif;
   --ui: Arial, Helvetica, sans-serif;
 }
@@ -43,6 +47,10 @@ p { margin-bottom: 12px; }
 .profile-links a span { text-decoration: underline; text-underline-offset: 3px; }
 .profile-links a:hover span { text-decoration-thickness: 2px; }
 .inline-icon { display: inline-block; flex: 0 0 16px; width: 16px; height: 16px; color: var(--accent); vertical-align: middle; }
+.inline-icon--email { color: var(--icon-email); }
+.inline-icon--cv { color: var(--icon-cv); }
+.inline-icon--code { color: var(--icon-code); }
+.inline-icon--link { color: var(--icon-link); }
 .hero-portrait { margin-top: 7px; }
 .portrait-frame { width: 180px; height: 205px; padding: 5px; border: 1px solid var(--line); overflow: hidden; background: var(--tint); }
 .portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 47%; }
@@ -140,7 +148,7 @@ p { margin-bottom: 12px; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
 @media print {
-  body.academic-site { --ink: #000; --muted: #444; --accent: #000; --accent-hover: #000; --line: #ccc; --tint: #fff; background: #fff; color: #000; font-size: 11pt; }
+  body.academic-site { --ink: #000; --muted: #444; --accent: #000; --accent-hover: #000; --line: #ccc; --tint: #fff; --icon-email: #000; --icon-cv: #000; --icon-code: #000; --icon-link: #000; background: #fff; color: #000; font-size: 11pt; }
   .shell { width: 100%; max-width: none; }
   .site-header, .site-footer, .menu-toggle, .skip-link, .profile-links { display: none !important; }
   .hero { padding-top: 0; grid-template-columns: minmax(0, 1fr) 130px; gap: 25px; }
