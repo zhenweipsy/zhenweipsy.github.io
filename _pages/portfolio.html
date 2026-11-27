@@ -1,14 +1,15 @@
 ---
-layout: archive
+layout: academic
 title: "Portfolio"
 permalink: /portfolio/
-author_profile: true
+author_profile: false
+excerpt: "Visual design and creative projects by Zhen Wei."
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="shell document-page">
+  <header class="document-header"><p class="eyebrow">Selected creative work</p><h1>Portfolio<span class="title-period">.</span></h1><p>Visual experiments, thoughtful layouts, and a little creative curiosity.</p></header>
+  <div class="document-content">
+    {% for project in site.portfolio %}
+    <article class="portfolio-project" id="{{ project.slug }}"><p class="eyebrow">Visual design / Figma</p><h2>{{ project.title }}</h2><p>A brochure design for Santier, and my first exploration of Figma.</p><img class="portfolio-full-image" src="{{ '/images/Figma_project(1).gif' | relative_url }}" alt="Animated preview of the Santier brochure design" loading="lazy"><a class="inline-link" href="{{ project.url | relative_url }}">Project details <span aria-hidden="true">↗</span></a></article>
+    {% endfor %}
+  </div>
+</div>
