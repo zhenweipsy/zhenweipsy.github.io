@@ -1,6 +1,6 @@
 # Zhen Wei — academic website
 
-A responsive personal website for neuroscience, perception research, and creative work. Built with Jekyll and compatible with GitHub Pages. The academic layout uses a pure white background, black text, conventional serif typography, a compact biography and photograph, and straightforward section lists. Small original black-and-white research schematics, profile-link icons, section indexes, and an education timeline add visual structure without changing the academic presentation. It does not require a frontend build or third-party fonts.
+A responsive personal website for neuroscience, perception research, and creative work. Built with Jekyll and compatible with GitHub Pages. The academic layout uses a pure white background, charcoal text, muted gray secondary text, and restrained slate-blue accents for links and research schematics. Conventional serif typography, a compact biography and photograph, profile-link icons, section indexes, and an education timeline keep the presentation academic. It does not require a frontend build or third-party fonts. Palette tokens are defined at the top of `assets/css/academic.css`; the original SVG schematics use matching colors. Print styles use neutral text and links.
 
 ## Editing content
 
