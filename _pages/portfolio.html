@@ -6,10 +6,10 @@ author_profile: false
 excerpt: "Visual design and creative projects by Zhen Wei."
 ---
 <div class="shell document-page">
-  <header class="document-header"><p class="eyebrow">Selected creative work</p><h1>Portfolio<span class="title-period">.</span></h1><p>Visual experiments, thoughtful layouts, and a little creative curiosity.</p></header>
+  <header class="document-header"><h1>Portfolio</h1><p>Visual design projects.</p></header>
   <div class="document-content">
     {% for project in site.portfolio %}
-    <article class="portfolio-project" id="{{ project.slug }}"><p class="eyebrow">Visual design / Figma</p><h2>{{ project.title }}</h2><p>A brochure design for Santier, and my first exploration of Figma.</p><img class="portfolio-full-image" src="{{ '/images/Figma_project(1).gif' | relative_url }}" alt="Animated preview of the Santier brochure design" loading="lazy"><a class="inline-link" href="{{ project.url | relative_url }}">Project details <span aria-hidden="true">↗</span></a></article>
+    <article class="portfolio-project" id="{{ project.slug }}"><p class="eyebrow">Visual design / Figma</p><h2>{{ project.title }}</h2><p>A brochure design for Santier, and my first exploration of Figma.</p><img class="portfolio-full-image" src="{{ '/images/Figma_project(1).gif' | relative_url }}" alt="Animated preview of the Santier brochure design" loading="lazy"><a class="inline-link" href="{{ project.url | relative_url }}">Project details</a></article>
     {% endfor %}
   </div>
 </div>
