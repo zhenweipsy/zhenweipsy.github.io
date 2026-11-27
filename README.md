@@ -1,6 +1,6 @@
 # Zhen Wei — academic website
 
-A responsive personal website for neuroscience, perception research, and creative work. Built with Jekyll and compatible with GitHub Pages. The new editorial layout uses warm ivory, deep teal, serif display typography, and self-contained illustrations. It does not require a frontend build or third-party fonts.
+A responsive personal website for neuroscience, perception research, and creative work. Built with Jekyll and compatible with GitHub Pages. The academic layout uses a pure white background, black text, conventional serif typography, a compact biography and photograph, and straightforward section lists. It does not require a frontend build or third-party fonts.
 
 ## Editing content
 
@@ -14,7 +14,7 @@ A responsive personal website for neuroscience, perception research, and creativ
 - `assets/js/academic.js`: mobile navigation only. Content and links remain accessible without JavaScript.
 - `_config.yml`: site metadata and author details.
 
-The homepage retains the original research topics, photograph, advisors, email, LinkedIn/GitHub profiles, and Santier brochure project. Placeholder social accounts, the missing PDF CV link, example publications, and example teaching/talk/blog entries are no longer presented as real work. The `/cv/` route is now the working CV destination. No new degrees, employment history, dates, or publications were invented.
+The homepage retains the original research topics, photograph, advisors, email, and LinkedIn/GitHub profiles. The Santier brochure project remains available in the portfolio. Placeholder social accounts, the missing PDF CV link, example publications, and example teaching/talk/blog entries are no longer presented as real work. The `/cv/` route is now the working CV destination. No new degrees, employment history, dates, or publications were invented.
 
 ## Local development
 
