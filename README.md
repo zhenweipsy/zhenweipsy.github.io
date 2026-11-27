@@ -1,6 +1,6 @@
 # Zhen Wei — academic website
 
-A responsive personal website for neuroscience, perception research, and creative work. Built with Jekyll and compatible with GitHub Pages. The academic layout uses a pure white background, black text, conventional serif typography, a compact biography and photograph, and straightforward section lists. It does not require a frontend build or third-party fonts.
+A responsive personal website for neuroscience, perception research, and creative work. Built with Jekyll and compatible with GitHub Pages. The academic layout uses a pure white background, black text, conventional serif typography, a compact biography and photograph, and straightforward section lists. Small original black-and-white research schematics, profile-link icons, section indexes, and an education timeline add visual structure without changing the academic presentation. It does not require a frontend build or third-party fonts.
 
 ## Editing content
 
@@ -11,6 +11,7 @@ A responsive personal website for neuroscience, perception research, and creativ
 - `_pages/portfolio.html` and `_portfolio/`: creative projects.
 - `_layouts/academic.html`: navigation, metadata, footer, and page shell.
 - `assets/css/academic.css`: responsive design, mobile navigation, reduced motion, and print styles.
+- `_includes/academic-icon.html` and `assets/images/research-*.svg`: original line icons and conceptual research illustrations.
 - `assets/js/academic.js`: mobile navigation only. Content and links remain accessible without JavaScript.
 - `_config.yml`: site metadata and author details.
 
@@ -30,6 +31,10 @@ Open the local address printed by Jekyll. GitHub Pages builds the existing `main
 ## Validation
 
 The redesigned pages were built successfully using Jekyll 4.3.2, with the configured plugins installed in a workspace-local gem directory. The original GitHub Pages Gemfile and plugin configuration remain in place. JavaScript syntax and local navigation/assets were checked. Browser-based visual and interaction checks could not be completed because the browser automation connection was unavailable. The legacy theme emits Sass deprecation warnings in Jekyll 4; these do not prevent the build and the redesigned pages use standalone CSS.
+
+## Design references
+
+The compact profile and research-list rhythm draw inspiration from the personal websites of [Jon Barron](https://jonbarron.info/) and [Phillip Isola](https://web.mit.edu/phillipi/). Their text, photographs, research results, and page source are not reused. The line illustrations on this site are original conceptual diagrams of the existing research interests.
 
 ## Credits
 
